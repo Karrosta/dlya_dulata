@@ -9,6 +9,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'package:dlya_dulata/main.dart';
+// ignore: unused_import
+import 'package:supabase/supabase.dart';
+
+final supabase = SupabaseClient('https://wfazkyweshftryysgtda.supabase.co',
+    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndmYXpreXdlc2hmdHJ5eXNndGRhIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTY3NTgzNDIsImV4cCI6MjAxMjMzNDM0Mn0.8en-Fcn_lPllu_8hcKBjptoWjsaAAaNQZgLLBjzcj5E');
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
